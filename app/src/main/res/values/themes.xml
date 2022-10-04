@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.201953120_FirstProject" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryVariant">@color/red_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pink_200</item>
+        <item name="colorSecondaryVariant">@color/pink_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="leaf">
+        <item name="cornerSizeTopLeft">100%</item>
+        <!--<item name="cornerFamilyTopLeft">cut</item>-->
+        <item name="cornerSizeBottomRight">100%</item>
+        <!--<item name="cornerFamilyBottomRight">cut</item>-->
+        <item name="cornerSizeBottomLeft">100%</item>
+        <item name="cornerSizeTopRight">100%</item>
+    </style>
+
+    <style name="ScoreButtons" parent="Theme.201953120_FirstProject">
+        <item name="android:background">@drawable/circle_shape</item>
+    </style>
+    <style name="PlusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/ic_baseline_add_24</item>
+        <item name="android:contentDescription">@string/plus</item>
+    </style>
+    <style name="MinusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/ic_baseline_remove_24</item>
+        <item name="android:contentDescription">@string/minus</item>
+    </style>
+
+
+</resources>
